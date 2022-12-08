@@ -13,16 +13,15 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    /* height: 100vh;
-    width: 100vh; */
+    height: 100vh;
+    width: 100vw;
 }
 
 main{
     position: relative;
     padding: 0px;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
 }
 
 section#celular{
@@ -35,8 +34,17 @@ section#celular{
     top: 50%;
     transform: translate(-50%,-50%);
 }
-iframe{
-    width: 267px;
+iframe#tela{
+    position: relative;
+    top:80px;
+    left: 22px;
     height: 472px;
-    
+}
+main #redes-sociais{
+    text-align: right;
+}
+section#redes-sociais img{
+    border-radius: 50%;
+    width: 80px;
+    padding: 20px;
 }
