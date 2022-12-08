@@ -46,10 +46,13 @@ main #redes-sociais{
 }
 section#redes-sociais img{
     border-radius: 50%;
-    width: 80px;
+    width: 70px;
     margin: 20px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.295);
 }
-a img:hover{
-    box-shadow: 2px 2px 5px 2px;
+section#redes-sociais img:hover{
+    box-shadow: 5px 5px 5px 5px;
     color: rgba(0, 0, 0, 0.445);
+    transform:translate(-10%,-10%);
+    transition-duration: .3s;
 }
